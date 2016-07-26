@@ -25,7 +25,6 @@ Caracteristicas del programa
 Librerias requeridas 
 *lapack
 *python con matplotlib y numpy instalado
-*
 
 En el directorio demos encontrara dos ejemplos con los que podrá probar el programa, así como las instrucciones para compilarlo.
 
