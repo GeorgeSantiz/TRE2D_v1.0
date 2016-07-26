@@ -1,0 +1,40 @@
+*****************
+*   TRE2D       *
+*****************
+
+-----------------------------
+Desarrollador: George Sántiz
+-----------------------------
+
+El directorio contiene el código en Fortran90 para modelar datos de tomografía de resistividad eléctrica.
+
+Se utiliza un esquema de diferencias finitas para resolver la ecuación diferencial eliptica que rige el comportamiento
+del potencial eléctrico en un semiespacio. Se regularizó el problema por el método de la solución fundamental, el programa
+tiene dos opciones para la regularización
+
+*Con un medio homogéneo
+*Con un medio estratificado (por el momento solo puede modelarse con un estrato sobre un semiespacio como solución fundamental).
+
+La solucion fundamental a utilizar depende del modelo a resolver.
+
+Caracteristicas del programa
+* tres configuraciones electródicas a elegir (Dipolo-dipolo, Wenner, Wenner-Schlumberger)
+* dos soluciones fundamentales a elegir
+* máximo 10 contrastes de resistividad
+
+Librerias requeridas 
+*lapack
+
+En el directorio demos encontrara dos ejemplos con los que podrá probar el programa, así como las instrucciones para compilarlo.
+
+
+Si hace uso de este código debe citar:
+
+Sántiz, George. "Modelación 2D de medidas de resistividad aparente empleando diferencias finitas".
+Licenciatura. Universidad Nacional Autónoma de México, 2016. Print.
+
+
+Bibliografía recomendada:
+
+Tejero A. A., L and CORNER arrays for 3D electric resistivity tomography: an
+alternative for geophysical surveys in urban zones, Geophysics, Volume 13, 2015.
